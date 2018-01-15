@@ -40,8 +40,32 @@ importance (although feel free to ask them to try to learn more about _why_
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
 
-*product backlog: a prioritised features list for the product found on github.
+* product backlog: a prioritised features list for the product found on github.
 
+### What is Technical Debt?
+
+[Technical debt](https://en.wikipedia.org/wiki/Technical_debt) is the cost to
+"re-work" a feature (or entire app) because it was rushed the first time it was built.
+
+Think of Technical Debt like a "loan shark" for your project, if you take
+"shortcuts" to implement a feature quickly (e.g: by skipping tests) you will
+pay for it later and usually with "interest".
+
+It may feel abstract and hard to understand but it is crucially not ignored.
+
+In other words, whilst in agile methodology we often talk about iterative growth
+and only building what is necessary, this should not mean that corners are cut
+in the short term that will inevitably end up with greater costs of time and
+resources later down the line.
+
+If technical debt does accrue it is worth reducing it systematically. If left
+ignored, as other development continues, the debt will grow as the new work
+added will also need reworking when the debt is finally addressed. Just like
+how financial debt grows when untouched because of interest.
+
+Note: this is related but distinct from retrospective changes that can be made
+to a project to make it more performant/relevant/consistent but that could not
+have been known/foreseen at the time the code was written.
 
 ### Optimal Team Size - Brooks' Law
 
