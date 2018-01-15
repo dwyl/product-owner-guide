@@ -17,15 +17,15 @@ they prioritise and discuss these ideas moulding them into features to be built.
 **PO Responsibilities:**
 1. Owner and creator of the product backlog* :crown:
 2. Adding new features to the backlog. :new:
-3. Approving or critiquing development work for release. :white_check_mark:
-4. Clearly define, understand and _empathise_ with the end-user. 👩 💡
-5. Involving customers or users and getting their feedback to continuously shape
-the product development. :+1: :thumbsdown:
-6. Maintaining and _updating_ the backlog: adjusting the features and _priority_
-as needed after each sprint or iteration. :small_red_triangle: :small_red_triangle_down:
-7. Describing the user-persona(s) in as much detail as possible to make the
+3. Describing the user-persona(s) in as much detail as possible to make the
 "pain" they feel _real_ (_especially useful when the team is remote and don't
 often meet with the end-users_) 📝
+4. Clearly define, understand and _empathise_ with the end-user. 👩 💡
+5. Approving or critiquing development work for release. :white_check_mark:
+6. Involving customers or users and getting their feedback to continuously shape
+the product development. :+1: :thumbsdown:
+7. Maintaining and _updating_ the backlog: adjusting the features and _priority_
+as needed after each sprint or iteration. :small_red_triangle: :small_red_triangle_down:
 8. Attach a _business_ or _customer_ value to each story/task in the backlog to
 ensure that we are building features that are genuinely wanted/needed by users. 💸
 9. Have a clear picture of "competitors" and the "market" for similar
