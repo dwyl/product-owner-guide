@@ -93,11 +93,15 @@ iPad:
 <img src="https://user-images.githubusercontent.com/16775804/34883587-e7b8c46c-f7b1-11e7-8f7a-035b0e29eded.png" width=500px />
 
 So if you come across a bug :bug: remember to include lots of detail to help
-your team replicate it. Think: what pathway did I take to get to the error? ie.
-who was I logged in as? :busts_in_silhouette: what was I trying to do when it
-happened? What device or browser was I using? :iphone::computer: e.g. Internet
-Explorer v10 or iPhone 6 view. Then take a screenshot of the bug and put it all
-into an issue to be fixed :wrench: :sparkles:.
+your team replicate it. Think:
+
+- What pathway did I take to get to the error? ie. who was I logged in as?
+:busts_in_silhouette: what was I trying to do when it happened?
+- What device or browser was I using? :iphone::computer: e.g. Internet Explorer
+v10 or iPhone 6 view. 
+
+Then take a screenshot of the bug and put it all into an issue to be fixed
+:wrench: :sparkles:.
 
 ### Optimal Team Size - Brooks' Law
 
