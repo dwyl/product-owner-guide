@@ -34,9 +34,10 @@ products/service to avoid "re-inventing" something that already exists! (_i.e.
   something they aren't doing or are doing poorly and focus on that!_) 🔍
 10. Be familiar with _existing_ UX/UI through personal use of other/existing
 Apps/services to know what can be done/re-used. ♻️
-11. Trust that your technical team is knowledgeable/skilful/motivated and does not
-need "baby sitting" ... 🙄
+11. Trust the expertise of your technical team on matters of technical
+importance (although feel free to ask them to try to learn more about _why_
+  certain things matter when you may not be familiar with what they are) :punch:
 12. Note, in order to be able to perform these responsibilities it's important
-that POs have been given the authority and means necessary to complete them. :rocket:
+that POs have been given the authority and means necessary to complete them. :muscle:
 
 *product backlog: a prioritised features list for the product found on github.
