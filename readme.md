@@ -98,7 +98,7 @@ your team replicate it. Think:
 - What pathway did I take to get to the error? ie. who was I logged in as?
 :busts_in_silhouette: what was I trying to do when it happened?
 - What device or browser was I using? :iphone::computer: e.g. Internet Explorer
-v10 or iPhone 6 view. 
+v10 or iPhone 6 view.
 
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
@@ -150,3 +150,48 @@ The best time for the whole team to start is at the "ideation" or "Design Sprint
 stage so that no time is wasted on this on-boarding later on.
 
 Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
+
+## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
+
+An existing issue is put into `please-test` as the team have finished working on
+it and all of the acceptance criteria have been fulfilled. You, the product
+owner test the issue and on reflection you decide that you think the designs
+would look better with a couple of tweaks - maybe removing the bold on the
+title, making the logo a bit bigger and changing the copy by a few words. What
+do you do in this situation?
+
+These changes might relate to the changes made in the issue but if they are
+fundamentally not what you asked for in the first place or not what was shown on
+the mock-up then they belong in a new issue **NOT** as a 'bug' or as a request
+at the bottom of the existing issue. Small as they seem, these issues are
+enhancements and new scope and they should be dealt with separately.
+
+### Why?
+These kinds of small changes add up, especially if you change your mind a couple
+of times or if there are a few across multiple issues. Not only do the github
+issues become muddied as their title may no longer reflect the content inside
+but also it becomes more complicated for people to follow the chains of
+conversations that have evolved. Also, the extra changes will impact the
+developer's initial time estimate which is damaging for their accuracy when
+trying to estimate how long issues will take. Imagine if these small changes
+prevented another issue in the sprint from being able to be completed which had
+you put the changes side by side, you would have prioritised the existing issue
+over these small tweaks. It's fine if you do want to prioritise getting these
+changes made but do it in a new issue where the time and importance can be seen
+by everyone and changes can be made to remove another issue from the sprint if
+prioritising this new one has to push another one out.
+
+### So what changes count as bugs :bug: then?
+Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
+
+ie. you were meant to change the font size across all titles on this page but
+you missed out the last title - please can you change it?
+
+**OR**
+
+Places where the changes made in an issue have broken something else that
+previously worked :broken_heart:
+
+ie. you changed the colour of submit buttons but that's also changed the colour
+of the cancel button, please can you fix the cancel button and make it the
+colour it was before? :wrench: :sparkles: :heart:
