@@ -151,6 +151,16 @@ stage so that no time is wasted on this on-boarding later on.
 
 Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
 
+## The lifecycle of an issue
+
+At dwyl we use github labels to help indicate the type, duration and status of an
+issue. The following image outlines the lifecycle of an issue using labels. In
+this example there are 3 actors, the Product Owner (PO), the Scrum Master
+(SM) and the developer (Cleop).
+
+<img src="https://user-images.githubusercontent.com/16775804/35003068-8d01f586-fae3-11e7-9e35-784092b42d62.png" width=350px />
+
+
 ## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
 
 An existing issue is put into `please-test` as the team have finished working on
@@ -167,31 +177,27 @@ at the bottom of the existing issue. Small as they seem, these issues are
 enhancements and new scope and they should be dealt with separately.
 
 ### Why?
-These kinds of small changes add up, especially if you change your mind a couple
-of times or if there are a few across multiple issues. Not only do the github
-issues become muddied as their title may no longer reflect the content inside
-but also it becomes more complicated for people to follow the chains of
-conversations that have evolved. Also, the extra changes will impact the
-developer's initial time estimate which is damaging for their accuracy when
-trying to estimate how long issues will take. Imagine if these small changes
-prevented another issue in the sprint from being able to be completed which had
-you put the changes side by side, you would have prioritised the existing issue
-over these small tweaks. It's fine if you do want to prioritise getting these
-changes made but do it in a new issue where the time and importance can be seen
-by everyone and changes can be made to remove another issue from the sprint if
-prioritising this new one has to push another one out.
+- These kinds of small changes add up, especially if you change your mind a couple
+of times or if there are a few across multiple issues.
+- The title of the issue may no longer reflect the content inside making it
+more complicated for people to follow the chains of conversations.
+- The extra changes will impact the developer's initial time estimate
+which is damaging for their accuracy when trying to estimate how long issues
+will take.
+- The extra scope may push something else out of the sprint. Had you prioritised
+the changes as a new issue you may not have put this tweak above the other issues
+in the sprint.
+
+**Here's an example where a new issue should have been made:**
+
+![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
 
 ### So what changes count as bugs :bug: then?
 Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
 
-ie. you were meant to change the font size across all titles on this page but
+e.g. you were meant to change the font size across all titles on this page but
 you missed out the last title - please can you change it?
 
-**OR**
-
-Places where the changes made in an issue have broken something else that
-previously worked :broken_heart:
-
-ie. you changed the colour of submit buttons but that's also changed the colour
-of the cancel button, please can you fix the cancel button and make it the
-colour it was before? :wrench: :sparkles: :heart:
+I submitted the form but I didn't receive an email notification as specified in
+the acceptance criteria. Please can you fix whatever is stopping the email from
+being sent?
