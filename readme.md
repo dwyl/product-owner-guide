@@ -42,6 +42,48 @@ that POs have been given the authority and means necessary to complete them. :mu
 
 * product backlog: a prioritised features list for the product found on github.
 
+See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
+
+## Template for making an issue
+
+**The 3 components you should include when creating an issue are:**
+
+1. A User story
+2. Acceptance Criteria
+3. A screenshot of a mock-up or a bug on the site (where possible)
+
+Followed by... any other useful/ relevant information for completing the issue.
+
+### User Stories
+
+A user story is a phrase which describes the what, why and who is it for of each
+issue. To write one complete the following three starters:
+
+**As...** a team member - **WHO**
+**I want to...** see a user story on every issue I read  - **WHAT**
+**so that...** I know the context in which the issue is set to help me understand
+it better - **WHY**
+
+**Here's another example:**
+
+**As** someone in need of a bin
+**I want to** be able to filter on the online shopping site by 'lid type'
+**So that** I can find a bin that closes securely to stop mice getting into my
+bin 🐭 ❌ 🗑 🧀
+
+### Acceptance Criteria
+
+Acceptance criteria are checkboxes that a developer knows they need to complete
+before that issue can be considered 'done'. They are the points against which
+the issue will be tested.
+
+### A screenshot or mock up of a new design
+A picture which illustrates what the issue should be creating or a screenshot of
+an existing page showing where a bug is occurring. Remember to include mock ups
+of both mobile and desktop views.
+
+<img src="https://user-images.githubusercontent.com/16775804/34988677-617ac428-fab7-11e7-9f07-3c47a84d2ab5.png" width=150px />
+
 ## Responsiveness standards for testing
 
 When you begin a project it is likely you will discuss target audience and
@@ -98,7 +140,7 @@ your team replicate it. Think:
 - What pathway did I take to get to the error? ie. who was I logged in as?
 :busts_in_silhouette: what was I trying to do when it happened?
 - What device or browser was I using? :iphone::computer: e.g. Internet Explorer
-v10 or iPhone 6 view. 
+v10 or iPhone 6 view.
 
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
