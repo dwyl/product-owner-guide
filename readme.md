@@ -40,7 +40,40 @@ importance (although feel free to ask them to try to learn more about _why_
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
 
-* product backlog: a prioritised features list for the product found on github.
+*product backlog: a prioritised features list for the product found on github.
+
+## What is the backlog?
+
+The backlog is your project's to do list, a list of all the features and things
+that need doing.
+
+### Where can I find the backlog?
+
+In order to keep track of progress on a project we use github, see
+https://github.com/dwyl/github-reference to learn more about using github.  To
+see the backlog click on the 'issues' tab at the top of your project:
+<img src="https://user-images.githubusercontent.com/16775804/34989963-4bc6a354-fabc-11e7-915b-d578e5f3dc34.png" width=250px />
+
+This will display a list of all of the individual things to do in your project.
+Something which needs doing on github is called an 'issue'.
+
+### Why github when we could use trello / basecamp / <-insert-other-site-here->?
+We use github because unlike other platforms it acts as a **single source of
+truth** :angel:. What does this mean? It means that github is the one place
+where the whole team can see the status of the project at a given time. Why
+can't another site be the single source of truth? Github is the site our
+developers use to upload their code to, for this reason you can see live updates
+of their code when it is added to the site, like this:
+
+![image](https://user-images.githubusercontent.com/16775804/34993671-04698cc6-fac9-11e7-9977-b14918d98c99.png)
+
+If we were to use another platform like trello then we'd have to manually update
+the progress on issues which would not only take time :hourglass: but also
+create a lag between things being done and everyone being able to see :eyes:
+that they've been done. Then we would have 2 records of the status of the
+project, the truth as told by trello and then the truth as told by the site
+storing our code. We think this is an unnecessary complication so we keep
+everything on github! ❤️ :octocat:
 
 ## Responsiveness standards for testing
 
