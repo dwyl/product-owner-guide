@@ -40,7 +40,18 @@ importance (although feel free to ask them to try to learn more about _why_
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
 
-* product backlog: a prioritised features list for the product found on github.
+*product backlog: a prioritised features list for the product found on github.
+
+## Product Owners should create issues rather than dwylers.
+
+### Why?
+
+- Fosters a clearer sense of ownership of the backlog
+- Allows us to pick up on nuances and possible communication issues early (e.g. expectations that weren't clearly communicated verbally, incorrect understandings of conversations had over other channels)
+- Engages POs with Github early in the process and ensures they know to go there for updates rather than emailing members of the team (for example)
+- They learn from being asked the same questions a few times by developers and improve their creation of issues over time
+- We have clear criteria for what an issue is which surprisingly, we sometime forget to follow ourselves - POs are often better at following these if the correct expectation is set up front
+- Scrum masters' time is much much better allocated to asking questions and unblocking the team than to writing up user stories which then still need clarification and validation from the PO
 
 ## Responsiveness standards for testing
 
@@ -98,7 +109,7 @@ your team replicate it. Think:
 - What pathway did I take to get to the error? ie. who was I logged in as?
 :busts_in_silhouette: what was I trying to do when it happened?
 - What device or browser was I using? :iphone::computer: e.g. Internet Explorer
-v10 or iPhone 6 view. 
+v10 or iPhone 6 view.
 
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
