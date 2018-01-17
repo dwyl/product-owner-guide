@@ -42,16 +42,22 @@ that POs have been given the authority and means necessary to complete them. :mu
 
 *product backlog: a prioritised features list for the product found on github.
 
-## Product Owners should create issues rather than dwylers.
+## Product Owners should create issues rather than dwylers
 
 ### Why?
 
-- Fosters a clearer sense of ownership of the backlog
-- Allows us to pick up on nuances and possible communication issues early (e.g. expectations that weren't clearly communicated verbally, incorrect understandings of conversations had over other channels)
-- Engages POs with Github early in the process and ensures they know to go there for updates rather than emailing members of the team (for example)
-- They learn from being asked the same questions a few times by developers and improve their creation of issues over time
-- We have clear criteria for what an issue is which surprisingly, we sometime forget to follow ourselves - POs are often better at following these if the correct expectation is set up front
-- Scrum masters' time is much much better allocated to asking questions and unblocking the team than to writing up user stories which then still need clarification and validation from the PO
+- As owner of the backlog the PO should know what's in it and how it's been
+outlined.
+- It ensures the team is on the same page.
+  - The PO should describe what their imagining of the issue is in their own
+  words. Had another team member written it assumptions or misinterpretations
+  could be made. When it's in the PO's words the team can talk through these in
+  the sprint planning to discuss any areas that don't feel clear.
+- Helps you to get familiar with Github and in the practice of using it.
+  - Practice will make perfect, you'll see what kinds of questions the team may
+ask you which will help you realise how you can improve your issue descriptions.
+- All issues must be validated by the PO, by you creating them first hand this
+cuts out back and forth of correction had someone else written it.
 
 ## Responsiveness standards for testing
 
