@@ -145,6 +145,16 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
+## What is a staging area/site and what is it used for?
+
+A staging site is a replica of your live (aka production) website. It is used as
+a first stage for testing when you deploy new code / features. It acts as a
+testing ground so that errors can be caught and fixed before finally deploying
+and updating the live site. Your staging site is meant for internal not public
+use.
+
+![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
+
 ## What is Technical Debt?
 
 [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) is the cost to
