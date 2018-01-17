@@ -155,11 +155,13 @@ Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
 
 At dwyl we use github labels to help indicate the type, duration and status of an
 issue. The following image outlines the lifecycle of an issue using labels. In
-this example there are 3 actors, the Product Owner (PO), the Scrum Master
-(SM) and the developer (Cleop).
+this example there are 3 actors, the Product Owner (PO), the dev team
+(Scrum Master and developers) and in this case the developer who has completed
+the issue: 'Cleop'.
 
-<img src="https://user-images.githubusercontent.com/16775804/35003068-8d01f586-fae3-11e7-9e35-784092b42d62.png" width=350px />
+<img src="https://user-images.githubusercontent.com/16775804/35041656-65100b90-fb7d-11e7-8139-15916e7325f7.png" width=350px />
 
+To learn more about our contributing process see: https://github.com/dwyl/contributing.
 
 ## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
 
