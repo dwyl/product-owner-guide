@@ -243,7 +243,7 @@ in the sprint.
 
 **Here's an example where a new issue should have been made:**
 
-![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
+![image](https://user-images.githubusercontent.com/16775804/35053496-241ea7a2-fba2-11e7-9553-7488b7c97325.png)
 
 ### So what changes count as bugs :bug: then?
 Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
