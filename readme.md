@@ -192,3 +192,56 @@ The best time for the whole team to start is at the "ideation" or "Design Sprint
 stage so that no time is wasted on this on-boarding later on.
 
 Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
+
+## The lifecycle of an issue
+
+At dwyl we use github labels to help indicate the type, duration and status of an
+issue. The following image outlines the lifecycle of an issue using labels. In
+this example there are 3 actors, the Product Owner (PO), the dev team
+(Scrum Master and developers) and in this case the developer who has completed
+the issue: 'Cleop'.
+
+<img src="https://user-images.githubusercontent.com/16775804/35041656-65100b90-fb7d-11e7-8139-15916e7325f7.png" width=350px />
+
+To learn more about our contributing process see: https://github.com/dwyl/contributing.
+
+## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
+
+An existing issue is put into `please-test` as the team have finished working on
+it and all of the acceptance criteria have been fulfilled. You, the product
+owner test the issue and on reflection you decide that you think the designs
+would look better with a couple of tweaks - maybe removing the bold on the
+title, making the logo a bit bigger and changing the copy by a few words. What
+do you do in this situation?
+
+These changes might relate to the changes made in the issue but if they are
+fundamentally not what you asked for in the first place or not what was shown on
+the mock-up then they belong in a new issue **NOT** as a 'bug' or as a request
+at the bottom of the existing issue. Small as they seem, these issues are
+enhancements and new scope and they should be dealt with separately.
+
+### Why?
+- These kinds of small changes add up, especially if you change your mind a couple
+of times or if there are a few across multiple issues.
+- The title of the issue may no longer reflect the content inside making it
+more complicated for people to follow the chains of conversations.
+- The extra changes will impact the developer's initial time estimate
+which is damaging for their accuracy when trying to estimate how long issues
+will take.
+- The extra scope may push something else out of the sprint. Had you prioritised
+the changes as a new issue you may not have put this tweak above the other issues
+in the sprint.
+
+**Here's an example where a new issue should have been made:**
+
+![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
+
+### So what changes count as bugs :bug: then?
+Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
+
+e.g. you were meant to change the font size across all titles on this page but
+you missed out the last title - please can you change it?
+
+I submitted the form but I didn't receive an email notification as specified in
+the acceptance criteria. Please can you fix whatever is stopping the email from
+being sent?
