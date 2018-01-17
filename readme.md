@@ -145,6 +145,15 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
+## Timing demos and deployments
+
+The PO and the Scrum Master liaise with one another to find a time and day suitable for sprint demos and deployments. We do however recommend the following on all occasions:
+- Don't deploy on a Friday, if anything breaks it may not be discovered until after the weekend or may need working on over the weekend.
+- As generally we deploy after a sprint demo, for this reason we do not start 10 day sprints on Mondays as this will inevitably end with a demo and deployment on a Friday.
+- To avoid bugs disrupting sprint demos the team will demo the work they completed up until a few hours before the demo. If you continue deploying to staging up until the demo you drastically increase the likelihood of a last minute rush or a semi-complete feature causing a bug and disrupting the demo.
+
+For these reasons it is important that the PO and Scrum Master set up demos in advance so all of these factors can be taken into consideration.
+
 ## What is Technical Debt?
 
 [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) is the cost to
