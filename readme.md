@@ -16,7 +16,7 @@ they prioritise and discuss these ideas moulding them into features to be built.
 
 **PO Responsibilities:**
 1. Owner and creator of the product backlog* :crown:
-2. Adding new features to the backlog. :new:
+2. Adding new features to the [backlog](#what-is-the-backlog?). :new:
 3. Describing the user-persona(s) in as much detail as possible to make the
 "pain" they feel _real_ (_especially useful when the team is remote and don't
 often meet with the end-users_) 📝
