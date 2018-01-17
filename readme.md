@@ -45,7 +45,13 @@ that POs have been given the authority and means necessary to complete them. :mu
 ## What is the backlog?
 
 The backlog is your project's to do list, a list of all the features and things
-that need doing.
+that need doing. This list contains not only the things that you're planning
+imminently but also ideas you want to discuss in the future or feature requests
+that are yet to be validated. As not all of the issues in the backlog are ready
+to work on we use labels to indicate things like priority or whether something
+is blocking an issue from being worked on. With the labels as a visual cue you
+can scan the backlog and get a flavour for what's important on the project at
+present.
 
 ### Where can I find the backlog?
 
@@ -73,9 +79,7 @@ create a lag between things being done and everyone being able to see :eyes:
 that they've been done. Then we would have 2 records of the status of the
 project, the truth as told by trello and then the truth as told by the site
 storing our code. We think this is an unnecessary complication so we keep
-everything on github! ❤️ :octocat:
-
-See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
+everything on github! ❤️ :octocat: Still want to know more about why we use github? Go to https://github.com/dwyl/github-reference#why
 
 ## Template for making an issue
 
