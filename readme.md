@@ -155,6 +155,18 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
+
+## What is a staging area/site and what is it used for?
+
+A staging site is a replica of your live (aka production) website. It is used as
+a first stage for testing when you deploy new code / features. It acts as a
+testing ground so that errors can be caught and fixed before finally deploying
+and updating the live site. Your staging site is meant for internal not public
+use.
+
+![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
+
+
 ## Timing demos and deployments
 
 The PO and the Scrum Master liaise with one another to find a time and day suitable for sprint demos and deployments. We do however recommend the following on all occasions:
@@ -163,6 +175,7 @@ The PO and the Scrum Master liaise with one another to find a time and day suita
 - To avoid bugs disrupting sprint demos the team will demo the work they completed up until a few hours before the demo. If you continue deploying to staging up until the demo you drastically increase the likelihood of a last minute rush or a semi-complete feature causing a bug and disrupting the demo.
 
 For these reasons it is important that the PO and Scrum Master set up demos in advance so all of these factors can be taken into consideration.
+
 
 ## What is Technical Debt?
 
