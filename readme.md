@@ -48,7 +48,7 @@ The backlog is your project's to do list, a list of all the features and things
 that need doing. This list contains not only the things that you're planning
 imminently but also ideas you want to discuss in the future or feature requests
 that are yet to be validated. As not all of the issues in the backlog are ready
-to work on we use labels to indicate things like priority or whether something
+to work on we use [labels](https://github.com/dwyl/labels#labels) to indicate things like priority or whether something
 is blocking an issue from being worked on. With the labels as a visual cue you
 can scan the backlog and get a flavour for what's important on the project at
 present.
