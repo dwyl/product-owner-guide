@@ -50,7 +50,24 @@ importance (although feel free to ask them to try to learn more about _why_
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
 
-* product backlog: a prioritised features list for the product found on github.
+*product backlog: a prioritised features list for the product found on github.
+
+## Product Owners should create issues rather than dwylers
+
+### Why?
+
+- As owner of the backlog the PO should know what's in it and how it's been
+outlined.
+- It ensures the team is on the same page.
+  - The PO should describe what their imagining of the issue is in their own
+  words. Had another team member written it assumptions or misinterpretations
+  could be made. When it's in the PO's words the team can talk through these in
+  the sprint planning to discuss any areas that don't feel clear.
+- Helps you to get familiar with Github and in the practice of using it.
+  - Practice will make perfect, you'll see what kinds of questions the team may
+ask you which will help you realise how you can improve your issue descriptions.
+- All issues must be validated by the PO, by you creating them first hand this
+cuts out back and forth of correction had someone else written it.
 
 See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
 
