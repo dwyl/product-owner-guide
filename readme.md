@@ -155,6 +155,11 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
+**Here is an example of a well detailed bug:**
+
+![image](https://user-images.githubusercontent.com/16775804/35097023-4900501c-fc46-11e7-9856-0387d1f64d17.png)
+
+Taken from: https://github.com/cul-2016/quiz/issues/582
 
 ## What is a staging area/site and what is it used for?
 
