@@ -294,6 +294,15 @@ the issue: 'Cleop'.
 
 To learn more about our contributing process see: https://github.com/dwyl/contributing.
 
+## What are priority labels?
+
+We have 5 priority labels. Issues are worked on in priority order from 1 down to
+5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most 
+situations when there are no open priority 1 issues, priority 2 issues are
+therefore the first ones to be worked on. Whilst at the other end of the scale
+a priority 5 could be used for an idea for a new feature that's not been fully
+outlined yet.
+
 ## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
 
 An existing issue is put into `please-test` as the team have finished working on
