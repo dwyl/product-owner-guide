@@ -91,8 +91,11 @@ criteria:
 
 ![image](https://user-images.githubusercontent.com/16775804/35054346-3732eba8-fba4-11e7-8cce-4f239e45104b.png)
 
-It doesn't have mock-ups/screenshots but note that the second checkbox says the
-delete button should follow existing conventions set out in the style guide.
+Find the original issue at: https://github.com/emfoundation/ce100-app/issues/894
+
+This issue doesn't have mock-ups/screenshots but note that the second checkbox
+says the delete button should follow existing conventions set out in the style
+guide.
 
 ## Responsiveness standards for testing
 
