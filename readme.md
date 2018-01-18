@@ -116,6 +116,34 @@ cuts out back and forth of correction had someone else written it.
 See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
 
 
+## Glossary of Key Terms
+
+- **Scrum Master**: tracks team progress, liaises with product owner on
+requirements, lends expertise on managing end to end projects, ensures features
+are tested when delivered and manages deployments in conjunction with technical
+architect and the team.
+- **Product backlog:** a prioritised features / to do list for the product found
+on github. See our ['What is the backlog?' section](#what-is-the-backlog?) for
+more detail.
+- **Sprint Backlog**: the backlog that is aiming for completion within a given
+sprint period.
+- **Sprint**: a 1-3 week working lifecycle of planning, building, presentation and
+reflection. We tend to work in 2 week (10 working day) sprints.
+- **UI / User Interface**: how the site looks from a design perspective.
+- **User testing:** interviews, focus groups and other forms of research conducted
+with potential/actual users of your product to give feedback and provide insight
+into what the user's needs are. See
+https://github.com/dwyl/learn-user-experience-testing to learn more about user
+testing.
+- **Milestone**:  a visual way to group issues in github, at dwyl we create one
+milestone per sprint so we have somewhere to see all of the issues which we
+estimate to complete by the end of the sprint. See
+https://github.com/dwyl/github-reference for more.
+- To see definitions on the **Sprint Ceremonies** such as **stand-ups, sprint demos,
+retrospectives and sprint planning** go to:
+https://github.com/dwyl/process-handbook/#ceremonies
+
+
 ## Template for making an issue
 
 **The 3 components you should include when creating an issue are:**
@@ -131,15 +159,15 @@ Followed by... any other useful/ relevant information for completing the issue.
 A user story is a phrase which describes the what, why and who is it for of each
 issue. To write one complete the following three starters:
 
-**As...** a team member - **WHO**
-**I want to...** see a user story on every issue I read  - **WHAT**
+**As...** a team member - **WHO** <br>
+**I want to...** see a user story on every issue I read  - **WHAT** <br>
 **so that...** I know the context in which the issue is set to help me understand
 it better - **WHY**
 
 **Here's another example:**
 
-**As** someone in need of a bin
-**I want to** be able to filter on the online shopping site by 'lid type'
+**As** someone in need of a bin <br>
+**I want to** be able to filter on the online shopping site by 'lid type' <br>
 **So that** I can find a bin that closes securely to stop mice getting into my
 bin 🐭 ❌ 🗑 🧀
 
@@ -155,6 +183,19 @@ an existing page showing where a bug is occurring. Remember to include mock ups
 of both mobile and desktop views.
 
 <img src="https://user-images.githubusercontent.com/16775804/34988677-617ac428-fab7-11e7-9f07-3c47a84d2ab5.png" width=150px />
+
+### Real world exemplar issue
+
+The following issue has a clearly defined user story and detailed acceptance
+criteria:
+
+![image](https://user-images.githubusercontent.com/16775804/35054346-3732eba8-fba4-11e7-8cce-4f239e45104b.png)
+
+Find the original issue at: https://github.com/emfoundation/ce100-app/issues/894
+
+This issue doesn't have mock-ups/screenshots but note that the second checkbox
+says the delete button should follow existing conventions set out in the style
+guide.
 
 ## Responsiveness standards for testing
 
