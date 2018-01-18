@@ -26,7 +26,7 @@ they prioritise and discuss these ideas moulding them into features to be built.
 
 **PO Responsibilities:**
 1. Owner and creator of the product backlog* :crown:
-2. Adding new features to the backlog. :new:
+2. Adding new features to the [backlog](#what-is-the-backlog?). :new:
 3. Describing the user-persona(s) in as much detail as possible to make the
 "pain" they feel _real_ (_especially useful when the team is remote and don't
 often meet with the end-users_) 📝
@@ -50,7 +50,46 @@ importance (although feel free to ask them to try to learn more about _why_
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
 
-*product backlog: a prioritised features list for the product found on github.
+* product backlog: a prioritised features list for the product found on github.
+
+## What is the backlog?
+
+The backlog is your project's to do list, a list of all the features and things
+that need doing. This list contains not only the things that you're planning
+imminently but also ideas you want to discuss in the future or feature requests
+that are yet to be validated. As not all of the issues in the backlog are ready
+to work on we use [labels](https://github.com/dwyl/labels#labels) to indicate things like priority or whether something
+is blocking an issue from being worked on. With the labels as a visual cue you
+can scan the backlog and get a flavour for what's important on the project at
+present.
+
+### Where can I find the backlog?
+
+In order to keep track of progress on a project we use github, see
+https://github.com/dwyl/github-reference to learn more about using github.  To
+see the backlog click on the 'issues' tab at the top of your project:
+<img src="https://user-images.githubusercontent.com/16775804/34989963-4bc6a354-fabc-11e7-915b-d578e5f3dc34.png" width=250px />
+
+This will display a list of all of the individual things to do in your project.
+Something which needs doing on github is called an 'issue'.
+
+### Why github when we could use trello / basecamp / <-insert-other-site-here->?
+We use github because unlike other platforms it acts as a **single source of
+truth** :angel:. What does this mean? It means that github is the one place
+where the whole team can see the status of the project at a given time. Why
+can't another site be the single source of truth? Github is the site our
+developers use to upload their code to, for this reason you can see live updates
+of their code when it is added to the site, like this:
+
+![image](https://user-images.githubusercontent.com/16775804/34993671-04698cc6-fac9-11e7-9977-b14918d98c99.png)
+
+If we were to use another platform like trello then we'd have to manually update
+the progress on issues which would not only take time :hourglass: but also
+create a lag between things being done and everyone being able to see :eyes:
+that they've been done. Then we would have 2 records of the status of the
+project, the truth as told by trello and then the truth as told by the site
+storing our code. We think this is an unnecessary complication so we keep
+everything on github! ❤️ :octocat: Still want to know more about why we use github? Go to https://github.com/dwyl/github-reference#why
 
 ## Product Owners should create issues rather than dwylers
 
@@ -70,6 +109,7 @@ ask you which will help you realise how you can improve your issue descriptions.
 cuts out back and forth of correction had someone else written it.
 
 See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
+
 
 ## Template for making an issue
 
