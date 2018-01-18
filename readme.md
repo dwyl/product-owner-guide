@@ -2,6 +2,16 @@
 
 A rough guide for those who are product owners on a dwyl project.
 
+## Contents
+
+- [What is a Product Owner?](#what-is-a-product-owner?)
+- [Template for making an issue](#template-for-making-an-issue)
+- [User Stories](#user-stories)
+- [Responsiveness standards for testing](#responsiveness-standards-for-testing)
+- [What is technical debt?](#what-is-technical-debt?)
+- [Optimal Team Size - Brooks' Law](#optimal-team-size-brooks'-law)
+
+
 ## What is a Product Owner?
 
 **A Product Owner (PO)** is someone who represents the views and needs of the
@@ -40,7 +50,7 @@ importance (although feel free to ask them to try to learn more about _why_
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
 
-*product backlog: a prioritised features list for the product found on github.
+* product backlog: a prioritised features list for the product found on github.
 
 ## What is the backlog?
 
@@ -80,6 +90,26 @@ that they've been done. Then we would have 2 records of the status of the
 project, the truth as told by trello and then the truth as told by the site
 storing our code. We think this is an unnecessary complication so we keep
 everything on github! ❤️ :octocat: Still want to know more about why we use github? Go to https://github.com/dwyl/github-reference#why
+
+## Product Owners should create issues rather than dwylers
+
+### Why?
+
+- As owner of the backlog the PO should know what's in it and how it's been
+outlined.
+- It ensures the team is on the same page.
+  - The PO should describe what their imagining of the issue is in their own
+  words. Had another team member written it assumptions or misinterpretations
+  could be made. When it's in the PO's words the team can talk through these in
+  the sprint planning to discuss any areas that don't feel clear.
+- Helps you to get familiar with Github and in the practice of using it.
+  - Practice will make perfect, you'll see what kinds of questions the team may
+ask you which will help you realise how you can improve your issue descriptions.
+- All issues must be validated by the PO, by you creating them first hand this
+cuts out back and forth of correction had someone else written it.
+
+See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
+
 
 ## Template for making an issue
 
@@ -182,6 +212,28 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
+
+## What is a staging area/site and what is it used for?
+
+A staging site is a replica of your live (aka production) website. It is used as
+a first stage for testing when you deploy new code / features. It acts as a
+testing ground so that errors can be caught and fixed before finally deploying
+and updating the live site. Your staging site is meant for internal not public
+use.
+
+![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
+
+
+## Timing demos and deployments
+
+The PO and the Scrum Master liaise with one another to find a time and day suitable for sprint demos and deployments. We do however recommend the following on all occasions:
+- Don't deploy on a Friday, if anything breaks it may not be discovered until after the weekend or may need working on over the weekend.
+- As generally we deploy after a sprint demo, for this reason we do not start 10 day sprints on Mondays as this will inevitably end with a demo and deployment on a Friday.
+- To avoid bugs disrupting sprint demos the team will demo the work they completed up until a few hours before the demo. If you continue deploying to staging up until the demo you drastically increase the likelihood of a last minute rush or a semi-complete feature causing a bug and disrupting the demo.
+
+For these reasons it is important that the PO and Scrum Master set up demos in advance so all of these factors can be taken into consideration.
+
+
 ## What is Technical Debt?
 
 [Technical debt](https://en.wikipedia.org/wiki/Technical_debt) is the cost to
@@ -229,3 +281,56 @@ The best time for the whole team to start is at the "ideation" or "Design Sprint
 stage so that no time is wasted on this on-boarding later on.
 
 Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
+
+## The lifecycle of an issue
+
+At dwyl we use github labels to help indicate the type, duration and status of an
+issue. The following image outlines the lifecycle of an issue using labels. In
+this example there are 3 actors, the Product Owner (PO), the dev team
+(Scrum Master and developers) and in this case the developer who has completed
+the issue: 'Cleop'.
+
+<img src="https://user-images.githubusercontent.com/16775804/35041656-65100b90-fb7d-11e7-8139-15916e7325f7.png" width=350px />
+
+To learn more about our contributing process see: https://github.com/dwyl/contributing.
+
+## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
+
+An existing issue is put into `please-test` as the team have finished working on
+it and all of the acceptance criteria have been fulfilled. You, the product
+owner test the issue and on reflection you decide that you think the designs
+would look better with a couple of tweaks - maybe removing the bold on the
+title, making the logo a bit bigger and changing the copy by a few words. What
+do you do in this situation?
+
+These changes might relate to the changes made in the issue but if they are
+fundamentally not what you asked for in the first place or not what was shown on
+the mock-up then they belong in a new issue **NOT** as a 'bug' or as a request
+at the bottom of the existing issue. Small as they seem, these issues are
+enhancements and new scope and they should be dealt with separately.
+
+### Why?
+- These kinds of small changes add up, especially if you change your mind a couple
+of times or if there are a few across multiple issues.
+- The title of the issue may no longer reflect the content inside making it
+more complicated for people to follow the chains of conversations.
+- The extra changes will impact the developer's initial time estimate
+which is damaging for their accuracy when trying to estimate how long issues
+will take.
+- The extra scope may push something else out of the sprint. Had you prioritised
+the changes as a new issue you may not have put this tweak above the other issues
+in the sprint.
+
+**Here's an example where a new issue should have been made:**
+
+![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
+
+### So what changes count as bugs :bug: then?
+Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
+
+e.g. you were meant to change the font size across all titles on this page but
+you missed out the last title - please can you change it?
+
+I submitted the form but I didn't receive an email notification as specified in
+the acceptance criteria. Please can you fix whatever is stopping the email from
+being sent?
