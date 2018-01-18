@@ -10,7 +10,7 @@ A rough guide for those who are product owners on a dwyl project.
 - [Responsiveness standards for testing](#responsiveness-standards-for-testing)
 - [What is technical debt?](#what-is-technical-debt?)
 - [Optimal Team Size - Brooks' Law](#optimal-team-size-brooks'-law)
-
+- [How do I know what's happening on a project?](#how-do-i-know-what's-happening-on-a-project)
 
 ## What is a Product Owner?
 
@@ -338,7 +338,7 @@ To learn more about our contributing process see: https://github.com/dwyl/contri
 ## What are priority labels?
 
 We have 5 priority labels. Issues are worked on in priority order from 1 down to
-5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most 
+5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most
 situations when there are no open priority 1 issues, priority 2 issues are
 therefore the first ones to be worked on. Whilst at the other end of the scale
 a priority 5 could be used for an idea for a new feature that's not been fully
@@ -384,3 +384,11 @@ you missed out the last title - please can you change it?
 I submitted the form but I didn't receive an email notification as specified in
 the acceptance criteria. Please can you fix whatever is stopping the email from
 being sent?
+
+## How do I know what's happening on a project?
+
+This illustration is a guide for POs who want to know the status of their
+project at any given time. See the [glossary](#glossary-of-key-terms) if you
+need reminding what some of the key terms mean.
+
+![image](https://user-images.githubusercontent.com/16775804/35109802-49b17fc6-fc6f-11e7-8150-2ea1df438e48.png)
