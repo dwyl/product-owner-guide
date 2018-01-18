@@ -9,15 +9,14 @@ A rough guide for those who are product owners on a dwyl project.
 - [What is the backlog?](#what-is-the-backlog?)
 - [Product Owners should create issues rather than dwylers](#product-owners-should-create-issues-rather-than-dwylers)
 - [Template for making an issue](#template-for-making-an-issue)
-- [User Stories](#user-stories)
-- [Responsiveness standards for testing](#responsiveness-standards-for-testing)
+- [What are priority labels?](#what-are-priority-labels)
+- [The lifecycle of an issue](The lifecycle of an issue)
+- [When to create a new issue when dealing with bugs and enhancements](#when-to-create-a-new-issue-when-dealing-with-bugs---and-enhancements-ribbon)
 - [What is a staging area/site and what is it used for?](#what-is-a-staging-areasite-and-what-is-it-used-for)
+- [Responsiveness standards for testing](#responsiveness-standards-for-testing)
 - [Timing demos and deployments](#timing-demos-and-deployments)
 - [What is technical debt?](#what-is-technical-debt?)
 - [Optimal Team Size - Brooks' Law](#optimal-team-size-brooks'-law)
-- [The lifecycle of an issue](The lifecycle of an issue)
-- [What are priority labels?](#what-are-priority-labels)
-- [When to create a new issue when dealing with bugs and enhancements](#when-to-create-a-new-issue-when-dealing-with-bugs---and-enhancements-ribbon)
 
 ## What is a Product Owner?
 
@@ -56,6 +55,33 @@ importance (although feel free to ask them to try to learn more about _why_
   certain things matter when you may not be familiar with what they are) :punch:
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
+
+## Glossary of Key Terms
+
+- **Scrum Master**: tracks team progress, liaises with product owner on
+requirements, lends expertise on managing end to end projects, ensures features
+are tested when delivered and manages deployments in conjunction with technical
+architect and the team.
+- **Product backlog:** a prioritised features / to do list for the product found
+on github. See our ['What is the backlog?' section](#what-is-the-backlog?) for
+more detail.
+- **Sprint Backlog**: the backlog that is aiming for completion within a given
+sprint period.
+- **Sprint**: a 1-3 week working lifecycle of planning, building, presentation and
+reflection. We tend to work in 2 week (10 working day) sprints.
+- **UI / User Interface**: how the site looks from a design perspective.
+- **User testing:** interviews, focus groups and other forms of research conducted
+with potential/actual users of your product to give feedback and provide insight
+into what the user's needs are. See
+https://github.com/dwyl/learn-user-experience-testing to learn more about user
+testing.
+- **Milestone**:  a visual way to group issues in github, at dwyl we create one
+milestone per sprint so we have somewhere to see all of the issues which we
+estimate to complete by the end of the sprint. See
+https://github.com/dwyl/github-reference for more.
+- To see definitions on the **Sprint Ceremonies** such as **stand-ups, sprint demos,
+retrospectives and sprint planning** go to:
+https://github.com/dwyl/process-handbook/#ceremonies
 
 ## What is the backlog?
 
@@ -115,35 +141,6 @@ cuts out back and forth of correction had someone else written it.
 
 See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
 
-
-## Glossary of Key Terms
-
-- **Scrum Master**: tracks team progress, liaises with product owner on
-requirements, lends expertise on managing end to end projects, ensures features
-are tested when delivered and manages deployments in conjunction with technical
-architect and the team.
-- **Product backlog:** a prioritised features / to do list for the product found
-on github. See our ['What is the backlog?' section](#what-is-the-backlog?) for
-more detail.
-- **Sprint Backlog**: the backlog that is aiming for completion within a given
-sprint period.
-- **Sprint**: a 1-3 week working lifecycle of planning, building, presentation and
-reflection. We tend to work in 2 week (10 working day) sprints.
-- **UI / User Interface**: how the site looks from a design perspective.
-- **User testing:** interviews, focus groups and other forms of research conducted
-with potential/actual users of your product to give feedback and provide insight
-into what the user's needs are. See
-https://github.com/dwyl/learn-user-experience-testing to learn more about user
-testing.
-- **Milestone**:  a visual way to group issues in github, at dwyl we create one
-milestone per sprint so we have somewhere to see all of the issues which we
-estimate to complete by the end of the sprint. See
-https://github.com/dwyl/github-reference for more.
-- To see definitions on the **Sprint Ceremonies** such as **stand-ups, sprint demos,
-retrospectives and sprint planning** go to:
-https://github.com/dwyl/process-handbook/#ceremonies
-
-
 ## Template for making an issue
 
 **The 3 components you should include when creating an issue are:**
@@ -196,6 +193,78 @@ Find the original issue at: https://github.com/emfoundation/ce100-app/issues/894
 This issue doesn't have mock-ups/screenshots but note that the second checkbox
 says the delete button should follow existing conventions set out in the style
 guide.
+
+## What are priority labels?
+
+We have 5 priority labels. Issues are worked on in priority order from 1 down to
+5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most
+situations when there are no open priority 1 issues, priority 2 issues are
+therefore the first ones to be worked on. Whilst at the other end of the scale
+a priority 5 could be used for an idea for a new feature that's not been fully
+outlined yet.
+
+## The lifecycle of an issue
+
+At dwyl we use github labels to help indicate the type, duration and status of an
+issue. The following image outlines the lifecycle of an issue using labels. In
+this example there are 3 actors, the Product Owner (PO), the dev team
+(Scrum Master and developers) and in this case the developer who has completed
+the issue: 'Cleop'.
+
+<img src="https://user-images.githubusercontent.com/16775804/35041656-65100b90-fb7d-11e7-8139-15916e7325f7.png" width=350px />
+
+To learn more about our contributing process see: https://github.com/dwyl/contributing.
+
+## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
+
+An existing issue is put into `please-test` as the team have finished working on
+it and all of the acceptance criteria have been fulfilled. You, the product
+owner test the issue and on reflection you decide that you think the designs
+would look better with a couple of tweaks - maybe removing the bold on the
+title, making the logo a bit bigger and changing the copy by a few words. What
+do you do in this situation?
+
+These changes might relate to the changes made in the issue but if they are
+fundamentally not what you asked for in the first place or not what was shown on
+the mock-up then they belong in a new issue **NOT** as a 'bug' or as a request
+at the bottom of the existing issue. Small as they seem, these issues are
+enhancements and new scope and they should be dealt with separately.
+
+### Why?
+- These kinds of small changes add up, especially if you change your mind a couple
+of times or if there are a few across multiple issues.
+- The title of the issue may no longer reflect the content inside making it
+more complicated for people to follow the chains of conversations.
+- The extra changes will impact the developer's initial time estimate
+which is damaging for their accuracy when trying to estimate how long issues
+will take.
+- The extra scope may push something else out of the sprint. Had you prioritised
+the changes as a new issue you may not have put this tweak above the other issues
+in the sprint.
+
+**Here's an example where a new issue should have been made:**
+
+![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
+
+### So what changes count as bugs :bug: then?
+Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
+
+e.g. you were meant to change the font size across all titles on this page but
+you missed out the last title - please can you change it?
+
+I submitted the form but I didn't receive an email notification as specified in
+the acceptance criteria. Please can you fix whatever is stopping the email from
+being sent?
+
+## What is a staging area/site and what is it used for?
+
+A staging site is a replica of your live (aka production) website. It is used as
+a first stage for testing when you deploy new code / features. It acts as a
+testing ground so that errors can be caught and fixed before finally deploying
+and updating the live site. Your staging site is meant for internal not public
+use.
+
+![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
 
 ## Responsiveness standards for testing
 
@@ -258,18 +327,6 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
-
-## What is a staging area/site and what is it used for?
-
-A staging site is a replica of your live (aka production) website. It is used as
-a first stage for testing when you deploy new code / features. It acts as a
-testing ground so that errors can be caught and fixed before finally deploying
-and updating the live site. Your staging site is meant for internal not public
-use.
-
-![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
-
-
 ## Timing demos and deployments
 
 The PO and the Scrum Master liaise with one another to find a time and day suitable for sprint demos and deployments. We do however recommend the following on all occasions:
@@ -327,65 +384,3 @@ The best time for the whole team to start is at the "ideation" or "Design Sprint
 stage so that no time is wasted on this on-boarding later on.
 
 Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
-
-## The lifecycle of an issue
-
-At dwyl we use github labels to help indicate the type, duration and status of an
-issue. The following image outlines the lifecycle of an issue using labels. In
-this example there are 3 actors, the Product Owner (PO), the dev team
-(Scrum Master and developers) and in this case the developer who has completed
-the issue: 'Cleop'.
-
-<img src="https://user-images.githubusercontent.com/16775804/35041656-65100b90-fb7d-11e7-8139-15916e7325f7.png" width=350px />
-
-To learn more about our contributing process see: https://github.com/dwyl/contributing.
-
-## What are priority labels?
-
-We have 5 priority labels. Issues are worked on in priority order from 1 down to
-5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most 
-situations when there are no open priority 1 issues, priority 2 issues are
-therefore the first ones to be worked on. Whilst at the other end of the scale
-a priority 5 could be used for an idea for a new feature that's not been fully
-outlined yet.
-
-## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
-
-An existing issue is put into `please-test` as the team have finished working on
-it and all of the acceptance criteria have been fulfilled. You, the product
-owner test the issue and on reflection you decide that you think the designs
-would look better with a couple of tweaks - maybe removing the bold on the
-title, making the logo a bit bigger and changing the copy by a few words. What
-do you do in this situation?
-
-These changes might relate to the changes made in the issue but if they are
-fundamentally not what you asked for in the first place or not what was shown on
-the mock-up then they belong in a new issue **NOT** as a 'bug' or as a request
-at the bottom of the existing issue. Small as they seem, these issues are
-enhancements and new scope and they should be dealt with separately.
-
-### Why?
-- These kinds of small changes add up, especially if you change your mind a couple
-of times or if there are a few across multiple issues.
-- The title of the issue may no longer reflect the content inside making it
-more complicated for people to follow the chains of conversations.
-- The extra changes will impact the developer's initial time estimate
-which is damaging for their accuracy when trying to estimate how long issues
-will take.
-- The extra scope may push something else out of the sprint. Had you prioritised
-the changes as a new issue you may not have put this tweak above the other issues
-in the sprint.
-
-**Here's an example where a new issue should have been made:**
-
-![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
-
-### So what changes count as bugs :bug: then?
-Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
-
-e.g. you were meant to change the font size across all titles on this page but
-you missed out the last title - please can you change it?
-
-I submitted the form but I didn't receive an email notification as specified in
-the acceptance criteria. Please can you fix whatever is stopping the email from
-being sent?
