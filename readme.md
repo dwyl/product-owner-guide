@@ -151,6 +151,19 @@ of both mobile and desktop views.
 
 <img src="https://user-images.githubusercontent.com/16775804/34988677-617ac428-fab7-11e7-9f07-3c47a84d2ab5.png" width=150px />
 
+### Real world exemplar issue
+
+The following issue has a clearly defined user story and detailed acceptance
+criteria:
+
+![image](https://user-images.githubusercontent.com/16775804/35054346-3732eba8-fba4-11e7-8cce-4f239e45104b.png)
+
+Find the original issue at: https://github.com/emfoundation/ce100-app/issues/894
+
+This issue doesn't have mock-ups/screenshots but note that the second checkbox
+says the delete button should follow existing conventions set out in the style
+guide.
+
 ## Responsiveness standards for testing
 
 When you begin a project it is likely you will discuss target audience and
