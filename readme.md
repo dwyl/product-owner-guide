@@ -2,6 +2,16 @@
 
 A rough guide for those who are product owners on a dwyl project.
 
+## Contents
+
+- [What is a Product Owner?](#what-is-a-product-owner?)
+- [Template for making an issue](#template-for-making-an-issue)
+- [User Stories](#user-stories)
+- [Responsiveness standards for testing](#responsiveness-standards-for-testing)
+- [What is technical debt?](#what-is-technical-debt?)
+- [Optimal Team Size - Brooks' Law](#optimal-team-size-brooks'-law)
+
+
 ## What is a Product Owner?
 
 **A Product Owner (PO)** is someone who represents the views and needs of the
@@ -16,7 +26,7 @@ they prioritise and discuss these ideas moulding them into features to be built.
 
 **PO Responsibilities:**
 1. Owner and creator of the product backlog* :crown:
-2. Adding new features to the backlog. :new:
+2. Adding new features to the [backlog](#what-is-the-backlog?). :new:
 3. Describing the user-persona(s) in as much detail as possible to make the
 "pain" they feel _real_ (_especially useful when the team is remote and don't
 often meet with the end-users_) 📝
@@ -42,7 +52,64 @@ that POs have been given the authority and means necessary to complete them. :mu
 
 * product backlog: a prioritised features list for the product found on github.
 
+## What is the backlog?
+
+The backlog is your project's to do list, a list of all the features and things
+that need doing. This list contains not only the things that you're planning
+imminently but also ideas you want to discuss in the future or feature requests
+that are yet to be validated. As not all of the issues in the backlog are ready
+to work on we use [labels](https://github.com/dwyl/labels#labels) to indicate things like priority or whether something
+is blocking an issue from being worked on. With the labels as a visual cue you
+can scan the backlog and get a flavour for what's important on the project at
+present.
+
+### Where can I find the backlog?
+
+In order to keep track of progress on a project we use github, see
+https://github.com/dwyl/github-reference to learn more about using github.  To
+see the backlog click on the 'issues' tab at the top of your project:
+<img src="https://user-images.githubusercontent.com/16775804/34989963-4bc6a354-fabc-11e7-915b-d578e5f3dc34.png" width=250px />
+
+This will display a list of all of the individual things to do in your project.
+Something which needs doing on github is called an 'issue'.
+
+### Why github when we could use trello / basecamp / <-insert-other-site-here->?
+We use github because unlike other platforms it acts as a **single source of
+truth** :angel:. What does this mean? It means that github is the one place
+where the whole team can see the status of the project at a given time. Why
+can't another site be the single source of truth? Github is the site our
+developers use to upload their code to, for this reason you can see live updates
+of their code when it is added to the site, like this:
+
+![image](https://user-images.githubusercontent.com/16775804/34993671-04698cc6-fac9-11e7-9977-b14918d98c99.png)
+
+If we were to use another platform like trello then we'd have to manually update
+the progress on issues which would not only take time :hourglass: but also
+create a lag between things being done and everyone being able to see :eyes:
+that they've been done. Then we would have 2 records of the status of the
+project, the truth as told by trello and then the truth as told by the site
+storing our code. We think this is an unnecessary complication so we keep
+everything on github! ❤️ :octocat: Still want to know more about why we use github? Go to https://github.com/dwyl/github-reference#why
+
+## Product Owners should create issues rather than dwylers
+
+### Why?
+
+- As owner of the backlog the PO should know what's in it and how it's been
+outlined.
+- It ensures the team is on the same page.
+  - The PO should describe what their imagining of the issue is in their own
+  words. Had another team member written it assumptions or misinterpretations
+  could be made. When it's in the PO's words the team can talk through these in
+  the sprint planning to discuss any areas that don't feel clear.
+- Helps you to get familiar with Github and in the practice of using it.
+  - Practice will make perfect, you'll see what kinds of questions the team may
+ask you which will help you realise how you can improve your issue descriptions.
+- All issues must be validated by the PO, by you creating them first hand this
+cuts out back and forth of correction had someone else written it.
+
 See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
+
 
 ## Glossary of Key Terms
 
@@ -70,6 +137,7 @@ https://github.com/dwyl/github-reference for more.
 - To see definitions on the **Sprint Ceremonies** such as **stand-ups, sprint demos,
 retrospectives and sprint planning** go to:
 https://github.com/dwyl/process-handbook/#ceremonies
+
 
 ## Template for making an issue
 
@@ -110,6 +178,19 @@ an existing page showing where a bug is occurring. Remember to include mock ups
 of both mobile and desktop views.
 
 <img src="https://user-images.githubusercontent.com/16775804/34988677-617ac428-fab7-11e7-9f07-3c47a84d2ab5.png" width=150px />
+
+### Real world exemplar issue
+
+The following issue has a clearly defined user story and detailed acceptance
+criteria:
+
+![image](https://user-images.githubusercontent.com/16775804/35054346-3732eba8-fba4-11e7-8cce-4f239e45104b.png)
+
+Find the original issue at: https://github.com/emfoundation/ce100-app/issues/894
+
+This issue doesn't have mock-ups/screenshots but note that the second checkbox
+says the delete button should follow existing conventions set out in the style
+guide.
 
 ## Responsiveness standards for testing
 
@@ -172,6 +253,18 @@ v10 or iPhone 6 view.
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
 
+
+## What is a staging area/site and what is it used for?
+
+A staging site is a replica of your live (aka production) website. It is used as
+a first stage for testing when you deploy new code / features. It acts as a
+testing ground so that errors can be caught and fixed before finally deploying
+and updating the live site. Your staging site is meant for internal not public
+use.
+
+![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
+
+
 ## Timing demos and deployments
 
 The PO and the Scrum Master liaise with one another to find a time and day suitable for sprint demos and deployments. We do however recommend the following on all occasions:
@@ -180,6 +273,7 @@ The PO and the Scrum Master liaise with one another to find a time and day suita
 - To avoid bugs disrupting sprint demos the team will demo the work they completed up until a few hours before the demo. If you continue deploying to staging up until the demo you drastically increase the likelihood of a last minute rush or a semi-complete feature causing a bug and disrupting the demo.
 
 For these reasons it is important that the PO and Scrum Master set up demos in advance so all of these factors can be taken into consideration.
+
 
 ## What is Technical Debt?
 
@@ -240,6 +334,15 @@ the issue: 'Cleop'.
 <img src="https://user-images.githubusercontent.com/16775804/35041656-65100b90-fb7d-11e7-8139-15916e7325f7.png" width=350px />
 
 To learn more about our contributing process see: https://github.com/dwyl/contributing.
+
+## What are priority labels?
+
+We have 5 priority labels. Issues are worked on in priority order from 1 down to
+5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most 
+situations when there are no open priority 1 issues, priority 2 issues are
+therefore the first ones to be worked on. Whilst at the other end of the scale
+a priority 5 could be used for an idea for a new feature that's not been fully
+outlined yet.
 
 ## When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:
 
