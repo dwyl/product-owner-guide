@@ -5,12 +5,19 @@ A rough guide for those who are product owners on a dwyl project.
 ## Contents
 
 - [What is a Product Owner?](#what-is-a-product-owner?)
+- [Glossary of Key Terms](#glossary-of-key-terms)
+- [What is the backlog?](#what-is-the-backlog?)
+- [Product Owners should create issues rather than dwylers](#product-owners-should-create-issues-rather-than-dwylers)
 - [Template for making an issue](#template-for-making-an-issue)
 - [User Stories](#user-stories)
 - [Responsiveness standards for testing](#responsiveness-standards-for-testing)
+- [What is a staging area/site and what is it used for?](#what-is-a-staging-areasite-and-what-is-it-used-for)
+- [Timing demos and deployments](#timing-demos-and-deployments)
 - [What is technical debt?](#what-is-technical-debt?)
 - [Optimal Team Size - Brooks' Law](#optimal-team-size-brooks'-law)
-
+- [The lifecycle of an issue](The lifecycle of an issue)
+- [What are priority labels?](#what-are-priority-labels)
+- [When to create a new issue when dealing with bugs and enhancements](#when-to-create-a-new-issue-when-dealing-with-bugs---and-enhancements-ribbon)
 
 ## What is a Product Owner?
 
@@ -49,8 +56,6 @@ importance (although feel free to ask them to try to learn more about _why_
   certain things matter when you may not be familiar with what they are) :punch:
 12. Note, in order to be able to perform these responsibilities it's important
 that POs have been given the authority and means necessary to complete them. :muscle:
-
-* product backlog: a prioritised features list for the product found on github.
 
 ## What is the backlog?
 
