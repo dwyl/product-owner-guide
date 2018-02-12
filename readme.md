@@ -371,7 +371,7 @@ have been known/foreseen at the time the code was written.
 
 Sometimes when a deadline is nearing or timing is looking tight then it can
 feel tempting to add more people to the team with the aim of getting things done
-faster. However it is worth considering (Brooks' Law)[https://en.wikipedia.org/wiki/Brooks%27s_law] which suggests that effectiveness/efficiency can decline with too many people.
+faster. However it is worth considering [Brooks' Law](https://en.wikipedia.org/wiki/Brooks%27s_law) which suggests that effectiveness/efficiency can decline with too many people.
 How can this be the case?
 
 Bringing on new team members has costs as well as benefits:
