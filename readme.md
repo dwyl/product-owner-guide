@@ -10,7 +10,7 @@ A rough guide for those who are product owners on a dwyl project.
 - [Product Owners should create issues rather than dwylers](#product-owners-should-create-issues-rather-than-dwylers)
 - [Template for making an issue](#template-for-making-an-issue)
 - [What are priority labels?](#what-are-priority-labels)
-- [The lifecycle of an issue](The lifecycle of an issue)
+- [The lifecycle of an issue](#the-lifecycle-of-an-issue)
 - [When to create a new issue when dealing with bugs and enhancements](#when-to-create-a-new-issue-when-dealing-with-bugs---and-enhancements-ribbon)
 - [What is a staging area/site and what is it used for?](#what-is-a-staging-areasite-and-what-is-it-used-for)
 - [Responsiveness standards for testing](#responsiveness-standards-for-testing)
@@ -32,30 +32,30 @@ their needs. Then through collaboration with the Scrum Master and developer team
 they prioritise and discuss these ideas moulding them into features to be built.
 
 **PO Responsibilities:**
-1. Owner and creator of the product backlog* :crown:
+1. Owner and creator of the product backlog :crown:
 2. Adding new features to the [backlog](#what-is-the-backlog?). :new:
 3. Describing the user-persona(s) in as much detail as possible to make the
 "pain" they feel _real_ (_especially useful when the team is remote and don't
 often meet with the end-users_) 📝
-4. Clearly define, understand and _empathise_ with the end-user. 👩 💡
+4. Clearly define, understand and _empathise_ with the end-user 👩 💡
 5. Approving or critiquing development work for release. :white_check_mark:
 6. Involving customers or users and getting their feedback to continuously shape
-the product development. :+1: :thumbsdown:
+the product development :+1: :thumbsdown:
 7. Maintaining and _updating_ the backlog: adjusting the features and _priority_
 as needed after each sprint or iteration. :small_red_triangle: :small_red_triangle_down:
 8. Attach a _business_ or _customer_ value to each story/task in the backlog to
-ensure that we are building features that are genuinely wanted/needed by users. 💸
+ensure that we are building features that are genuinely wanted/needed by users 💸
 9. Have a clear picture of "competitors" and the "market" for similar
 products/service to avoid "re-inventing" something that already exists! (_i.e.
-  don't try to replace App/Site ABC, you are wasting your time! instead find
+  don't try to replace app/site ABC, you are wasting your time! instead find
   something they aren't doing or are doing poorly and focus on that!_) 🔍
 10. Be familiar with _existing_ UX/UI through personal use of other/existing
-Apps/services to know what can be done/re-used. ♻️
+apps/services to know what can be done/re-used ♻️
 11. Trust the expertise of your technical team on matters of technical
-importance (although feel free to ask them to try to learn more about _why_
-  certain things matter when you may not be familiar with what they are) :punch:
+importance (although feel free to ask questions to learn more about _why_
+  certain things matter when you may not be familiar with them) :punch:
 12. Note, in order to be able to perform these responsibilities it's important
-that POs have been given the authority and means necessary to complete them. :muscle:
+that POs have been given the authority and means necessary to complete them :muscle:
 
 ## Glossary of Key Terms
 
@@ -80,7 +80,7 @@ testing.
 milestone per sprint so we have somewhere to see all of the issues which we
 estimate to complete by the end of the sprint. See
 https://github.com/dwyl/github-reference for more.
-- To see definitions on the **Sprint Ceremonies** such as **stand-ups, sprint demos,
+- To see definitions on the **Sprint Ceremonies** such as **stand ups, sprint demos,
 retrospectives and sprint planning** go to:
 https://github.com/dwyl/process-handbook/#ceremonies
 
@@ -140,8 +140,6 @@ ask you which will help you realise how you can improve your issue descriptions.
 - All issues must be validated by the PO, by you creating them first hand this
 cuts out back and forth of correction had someone else written it.
 
-See: https://github.com/dwyl/process-handbook/issues/61, linked to #5
-
 ## Template for making an issue
 
 **The 3 components you should include when creating an issue are:**
@@ -154,8 +152,9 @@ Followed by... any other useful/ relevant information for completing the issue.
 
 ### User Stories
 
-A user story is a phrase which describes the what, why and who is it for of each
-issue. To write one complete the following three starters:
+A user story is a phrase which describes the what (you want to do), the who
+(the issue is for) and the why (why should this be done). To write one complete
+the following three starters:
 
 **As...** a team member - **WHO** <br>
 **I want to...** see a user story on every issue I read  - **WHAT** <br>
@@ -164,7 +163,7 @@ it better - **WHY**
 
 **Here's another example:**
 
-**As** someone in need of a bin <br>
+**As** someone in need of a new bin <br>
 **I want to** be able to filter on the online shopping site by 'lid type' <br>
 **So that** I can find a bin that closes securely to stop mice getting into my
 bin 🐭 ❌ 🗑 🧀
@@ -178,7 +177,9 @@ the issue will be tested.
 ### A screenshot or mock up of a new design
 A picture which illustrates what the issue should be creating or a screenshot of
 an existing page showing where a bug is occurring. Remember to include mock ups
-of both mobile and desktop views.
+of both mobile and desktop views for new designs. Give as much contextual detail
+as possible for bugs e.g. occurs on iPhone 8 and chrome on desktop - see
+screenshots.
 
 <img src="https://user-images.githubusercontent.com/16775804/34988677-617ac428-fab7-11e7-9f07-3c47a84d2ab5.png" width=150px />
 
@@ -198,10 +199,10 @@ guide.
 ## What are priority labels?
 
 We have 5 priority labels. Issues are worked on in priority order from 1 down to
-5\. priority 1 is reserved for emergency use e.g. the live site crashing. In most
-situations when there are no open priority 1 issues, priority 2 issues are
+5\. `priority-1` is reserved for emergency use e.g. the live site crashing. In most
+situations when there are no open `priority-1` issues, `priority-2` issues are
 therefore the first ones to be worked on. Whilst at the other end of the scale
-a priority 5 could be used for an idea for a new feature that's not been fully
+a `priority-5` could be used for an idea for a new feature that's not been fully
 outlined yet.
 
 ## The lifecycle of an issue
@@ -248,7 +249,7 @@ in the sprint.
 ![image](https://user-images.githubusercontent.com/16775804/35000346-12827d14-fadc-11e7-97da-3921382b2dc2.png)
 
 ### So what changes count as bugs :bug: then?
-Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark: :
+Bugs are places where the acceptance criteria has not been met :negative_squared_cross_mark:
 
 e.g. you were meant to change the font size across all titles on this page but
 you missed out the last title - please can you change it?
@@ -289,10 +290,12 @@ finding and fixing a given problem.
 To open 'Inspect' right click on your computer with your browser open or if you
 are a mac user press control and then click. This menu should appear, then click
 on 'Inspect':
+
 <img src="https://user-images.githubusercontent.com/16775804/34882711-54e6a642-f7af-11e7-9044-509708116fea.png" width=150px />
 
 Now your browser has 'Inspect' or 'Dev tools' open you should make sure you are
 using the device mode. Look for this symbol in the menu:
+
 ![image](https://user-images.githubusercontent.com/16775804/34883357-56336aec-f7b1-11e7-8ed3-6cbf3a0483e5.png)
 
 <img src="https://user-images.githubusercontent.com/16775804/34882755-7633219a-f7af-11e7-92ef-5064cbecf73f.png" width=250px />
@@ -315,6 +318,7 @@ E.g. iPhone 7:
 ![image](https://user-images.githubusercontent.com/16775804/34883575-d85ae5ea-f7b1-11e7-8b26-03e6df9c8a12.png)
 
 iPad:
+
 <img src="https://user-images.githubusercontent.com/16775804/34883587-e7b8c46c-f7b1-11e7-8f7a-035b0e29eded.png" width=500px />
 
 So if you come across a bug :bug: remember to include lots of detail to help
@@ -323,7 +327,7 @@ your team replicate it. Think:
 - What pathway did I take to get to the error? ie. who was I logged in as?
 :busts_in_silhouette: what was I trying to do when it happened?
 - What device or browser was I using? :iphone::computer: e.g. Internet Explorer
-v10 or iPhone 6 view.
+v10 or iPhone 8 view.
 
 Then take a screenshot of the bug and put it all into an issue to be fixed
 :wrench: :sparkles:.
@@ -367,9 +371,8 @@ have been known/foreseen at the time the code was written.
 
 Sometimes when a deadline is nearing or timing is looking tight then it can
 feel tempting to add more people to the team with the aim of getting things done
-faster. However it is worth considering Brooks' Law which suggests that
-effectiveness/efficiency can decline with too many people. How can this be the
-case?
+faster. However it is worth considering (Brooks' Law)[https://en.wikipedia.org/wiki/Brooks%27s_law] which suggests that effectiveness/efficiency can decline with too many people.
+How can this be the case?
 
 Bringing on new team members has costs as well as benefits:
 
@@ -384,7 +387,6 @@ take up way more time.
 The best time for the whole team to start is at the "ideation" or "Design Sprint"
 stage so that no time is wasted on this on-boarding later on.
 
-Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
 ## How do I know what's happening on a project?
 
 This illustration is a guide for POs who want to know the status of their
