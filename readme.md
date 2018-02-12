@@ -17,6 +17,7 @@ A rough guide for those who are product owners on a dwyl project.
 - [Timing demos and deployments](#timing-demos-and-deployments)
 - [What is technical debt?](#what-is-technical-debt?)
 - [Optimal Team Size - Brooks' Law](#optimal-team-size-brooks'-law)
+- [How do I know what's happening on a project?](#how-do-i-know-what's-happening-on-a-project)
 
 ## What is a Product Owner?
 
@@ -384,3 +385,10 @@ The best time for the whole team to start is at the "ideation" or "Design Sprint
 stage so that no time is wasted on this on-boarding later on.
 
 Further reading: https://en.wikipedia.org/wiki/Brooks%27s_law
+## How do I know what's happening on a project?
+
+This illustration is a guide for POs who want to know the status of their
+project at any given time. See the [glossary](#glossary-of-key-terms) if you
+need reminding what some of the key terms mean.
+
+![image](https://user-images.githubusercontent.com/16775804/35109802-49b17fc6-fc6f-11e7-8150-2ea1df438e48.png)
