@@ -413,3 +413,5 @@ project at any given time. See the [glossary](#glossary-of-key-terms) if you
 need reminding what some of the key terms mean.
 
 ![image](https://user-images.githubusercontent.com/16775804/35109802-49b17fc6-fc6f-11e7-8150-2ea1df438e48.png)
+
+[![HitCount](http://hits.dwyl.io/dwyl/product-owner-guide.svg)](http://hits.dwyl.io/dwyl/product-owner-guide)
