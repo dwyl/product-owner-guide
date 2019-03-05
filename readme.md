@@ -339,18 +339,6 @@ critical steps required to reproduce it and which devices it was experienced on:
 
 Taken from: https://github.com/cul-2016/quiz/issues/582
 
-## What is a staging area/site and what is it used for?
-
-A staging site is a replica of your live (aka production) website. It is used as
-a first stage for testing when you deploy new code / features. It acts as a
-testing ground so that errors can be caught and fixed before finally deploying
-and updating the live site. Your staging site is meant for internal not public
-use.
-
-![image](https://user-images.githubusercontent.com/16775804/35052543-bb723914-fb9f-11e7-96f4-4e91732dda5e.png)
-
-
-
 ## Timing demos and deployments
 
 The PO and the Scrum Master liaise with one another to find a time and day suitable for sprint demos and deployments. We do however recommend the following on all occasions:
