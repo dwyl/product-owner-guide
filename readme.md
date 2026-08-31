@@ -1,35 +1,36 @@
-# Product Owner Guide
 
-A guide for product owners on a dwyl project.
+<img alt="Product Owner Guide: A guide for product owners on a dwyl project" src="https://github.com/user-attachments/assets/8c55bdbc-7908-4c8d-8ba6-038646eee866" />
 
-## Contents
+<details>
+  <summary>Contents [click to expand]</summary>
+  
+- [What is a Product Owner?](#what-is-a-product-owner)
+- [Glossary of Key Terms](#glossary-of-key-terms)
+- [What is the backlog?](#what-is-the-backlog)
+  - [Where can I find the backlog?](#where-can-i-find-the-backlog)
+  - [Why github when we could use trello / basecamp / \<-insert-other-site-here-\>?](#why-github-when-we-could-use-trello--basecamp---insert-other-site-here-)
+- [Product Owners should create issues rather than dwylers](#product-owners-should-create-issues-rather-than-dwylers)
+  - [Why?](#why)
+- [Template for making an issue](#template-for-making-an-issue)
+  - [User Stories](#user-stories)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [A screenshot or mock up of a new design](#a-screenshot-or-mock-up-of-a-new-design)
+  - [Real world exemplar issue](#real-world-exemplar-issue)
+- [What are priority labels?](#what-are-priority-labels)
+- [The lifecycle of an issue](#the-lifecycle-of-an-issue)
+- [When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:](#when-to-create-a-new-issue-when-dealing-with-bugs---and-enhancements-ribbon)
+  - [Why?](#why-1)
+  - [So what changes count as bugs :bug: then?](#so-what-changes-count-as-bugs-bug-then)
+- [What is a staging area/site and what is it used for?](#what-is-a-staging-areasite-and-what-is-it-used-for)
+- [Responsiveness standards for testing](#responsiveness-standards-for-testing)
+  - [How to test using standard device sizes](#how-to-test-using-standard-device-sizes)
+- [Timing demos and deployments](#timing-demos-and-deployments)
+- [What is Technical Debt?](#what-is-technical-debt)
+- [Optimal Team Size - Brooks' Law](#optimal-team-size---brooks-law)
+- [How do I know what's happening on a project?](#how-do-i-know-whats-happening-on-a-project)
 
-- [Product Owner Guide](#product-owner-guide)
-  - [Contents](#contents)
-  - [What is a Product Owner?](#what-is-a-product-owner)
-  - [Glossary of Key Terms](#glossary-of-key-terms)
-  - [What is the backlog?](#what-is-the-backlog)
-    - [Where can I find the backlog?](#where-can-i-find-the-backlog)
-    - [Why github when we could use trello / basecamp / \<-insert-other-site-here-\>?](#why-github-when-we-could-use-trello--basecamp---insert-other-site-here-)
-  - [Product Owners should create issues rather than dwylers](#product-owners-should-create-issues-rather-than-dwylers)
-    - [Why?](#why)
-  - [Template for making an issue](#template-for-making-an-issue)
-    - [User Stories](#user-stories)
-    - [Acceptance Criteria](#acceptance-criteria)
-    - [A screenshot or mock up of a new design](#a-screenshot-or-mock-up-of-a-new-design)
-    - [Real world exemplar issue](#real-world-exemplar-issue)
-  - [What are priority labels?](#what-are-priority-labels)
-  - [The lifecycle of an issue](#the-lifecycle-of-an-issue)
-  - [When to create a new issue when dealing with bugs 🐛  and enhancements :ribbon:](#when-to-create-a-new-issue-when-dealing-with-bugs---and-enhancements-ribbon)
-    - [Why?](#why-1)
-    - [So what changes count as bugs :bug: then?](#so-what-changes-count-as-bugs-bug-then)
-  - [What is a staging area/site and what is it used for?](#what-is-a-staging-areasite-and-what-is-it-used-for)
-  - [Responsiveness standards for testing](#responsiveness-standards-for-testing)
-    - [How to test using standard device sizes](#how-to-test-using-standard-device-sizes)
-  - [Timing demos and deployments](#timing-demos-and-deployments)
-  - [What is Technical Debt?](#what-is-technical-debt)
-  - [Optimal Team Size - Brooks' Law](#optimal-team-size---brooks-law)
-  - [How do I know what's happening on a project?](#how-do-i-know-whats-happening-on-a-project)
+<br />
+</details>
 
 ## What is a Product Owner?
 
